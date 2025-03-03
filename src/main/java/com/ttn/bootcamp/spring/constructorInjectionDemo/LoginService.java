@@ -8,7 +8,7 @@ public class LoginService {
 
     AuthenticationService authenticationService;
 
-
+    @Autowired
     public LoginService(AuthenticationService authenticationService){
         this.authenticationService=authenticationService;
     }
